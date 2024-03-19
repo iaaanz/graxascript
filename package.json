@@ -1,0 +1,19 @@
+{
+  "name": "graxascript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "tsc": "^2.0.4"
+  },
+  "scripts": {
+    "build": "yarn tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.29",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
